@@ -10,3 +10,7 @@ def home(request):
 def about(request):
     print('About')
     return render(request,'about.html')
+
+def contact(request):
+    print('Contact')
+    return render(request,'contact.html')
